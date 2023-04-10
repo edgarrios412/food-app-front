@@ -29,12 +29,6 @@ import {
   
   const reducer = (state = initialState, {type,payload}) => {
     switch (type) {
-      case FILTER_RECIPES_ING: {
-        return{
-          ...state,
-          filterRecipes: state.recipes.filter(r => )
-        }
-      }
       case USER_LOGGED:{
         return{
           ...state,
